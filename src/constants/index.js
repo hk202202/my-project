@@ -280,30 +280,30 @@ const projects = [
     ],
     image: cravebite,
     hosted_link: "https://cravebite-hazel.vercel.app/",
-    source_code_link: "https://github.com/1nishitagupta/cravebite",
+    source_code_link: "https://github.com/hk202202/cravebite",
   },
-  {
-    name: "YouTube Clone",
-    description:
-      "Developed a YouTube clone using React, incorporating React Player and Material-UI components. This project demonstrated the ability to integrate external libraries and build a user interface that closely emulates the popular video-sharing platform.",
-    tags: [
-      {
-        name: " Material-UI",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "React Player",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: youtube,
-    hosted_link: "https://youtube-clone-nishita-eight.vercel.app/",
-    source_code_link: "https://github.com/1nishitagupta/Youtube-clone",
-  },
+  // {
+  //   name: "YouTube Clone",
+  //   description:
+  //     "Developed a YouTube clone using React, incorporating React Player and Material-UI components. This project demonstrated the ability to integrate external libraries and build a user interface that closely emulates the popular video-sharing platform.",
+  //   tags: [
+  //     {
+  //       name: " Material-UI",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "React Player",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "react",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: youtube,
+  //   hosted_link: ",
+  //   source_code_link: "",
+  // },
   {
     name: "Movix App",
     description:
@@ -323,8 +323,8 @@ const projects = [
       },
     ],
     image: movix,
-    hosted_link: "https://movix-nishita.vercel.app/",
-    source_code_link: "https://github.com/1nishitagupta/movix",
+    hosted_link: ,
+    source_code_link: "https://github.com/hk202202/Netfilx",
   },
   {
     name: "SGFI - Website with Animation",
@@ -368,7 +368,7 @@ const projects = [
     ],
     image: ecommerce,
     hosted_link: "https://react-e-commerce-sage.vercel.app/",
-    source_code_link: "https://github.com/1nishitagupta/React-E-commerce",
+    source_code_link: "https://github.com/hk202202/React-E-commerce",
   },
   {
     name: "Chat Bot",
@@ -390,7 +390,7 @@ const projects = [
     ],
     image: chatbot,
     hosted_link: "https://chat-bot-hazel.vercel.app/",
-    source_code_link: "https://github.com/1nishitagupta/ChatBot",
+    source_code_link: "https://github.com/hk202202/CHATGPT-REACT-APP",
   },
   {
     name: "Random User App",
@@ -416,7 +416,7 @@ const projects = [
     ],
     image: randomuser,
     hosted_link: "https://random-user-gamma.vercel.app/",
-    source_code_link: "https://github.com/1nishitagupta/random-user",
+    source_code_link: "https://github.com/hk202202/random-use",
   },
   {
     name: "To-Do App ",
@@ -438,7 +438,7 @@ const projects = [
     ],
     image: todo,
     hosted_link: "https://redux-todo-mocha.vercel.app/",
-    source_code_link: "https://github.com/1nishitagupta/Redux-Todo",
+    source_code_link: "",
   },
 ];
 
