@@ -49,10 +49,11 @@ import {
   speedometer,
   durapid,
   fsl,
+  java,
 } from "../assets";
 
 export const overview =
-  "I am a passionate and detail-oriented front-end developer with a strong foundation in web technologies. My journey in the world of web development has been marked by hands-on experience, creativity, and a commitment to delivering visually appealing and intuitive user interfaces. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!";
+  "I am a passionate and detail-oriented front-end developer with a strong foundation in java web technologies. My journey in the world of web development has been marked by hands-on experience, creativity, and a commitment to delivering visually appealing and intuitive user interfaces. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!";
 
 export const projectsDescription =
   "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively. I approach each project with a blend of creativity and functionality, ensuring that the user experience is not only visually engaging but also intuitive and seamless. My dedication to clean code and best practices reflects in the efficiency and maintainability of my projects.";
@@ -82,8 +83,8 @@ const services = [
     icon: frontend,
   },
   {
-    title: "React Development",
-    icon: reactjs,
+    title: "Java  DSA ",
+    icon: java,
   },
   {
     title: "UI/UX Design",
@@ -93,17 +94,10 @@ const services = [
     title: "Creative Multimedia Integration",
     icon: multimedia,
   },
-  {
-    title: "API Integration",
-    icon: link,
-  },
+ 
   {
     title: "Performance Optimization",
     icon: speedometer,
-  },
-  {
-    title: "Code Maintenance and Documentation",
-    icon: essay,
   },
   {
     title: "Project Collaboration",
@@ -122,14 +116,6 @@ const services = [
     icon: camera,
   },
   {
-    title: "Digital Presence",
-    icon: socialmedia,
-  },
-  {
-    title: "Artist",
-    icon: paintpalette,
-  },
-  {
     title: "Cooking",
     icon: cooking,
   },
@@ -145,20 +131,21 @@ const technologies = [
     icon: css,
   },
   {
+    name: "Java",
+    icon: java,
+  },
+  {
     name: "JavaScript",
     icon: jsLogo,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
+
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -168,10 +155,10 @@ const technologies = [
   //   name: "Node JS",
   //   icon: nodejs,
   // },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
   {
     name: "git",
     icon: git,
@@ -188,12 +175,12 @@ const experiences = [
     company_name: "Apmosys pvt ltd Navi Mumbai",
     icon: durapid,
     iconBg: "#E6DEDD",
-    date: "Sept 2022 - Present",
+    date: "Nov 2023 - Mar 2024",
     points: [
-      " Developed and maintained user interfaces using HTML5, CSS3, and JavaScript ES6.",
-      " Implemented state management with ReactJS and Redux, enhancing application performance.",
-      " Designed user interfaces using Material UI, Chakra UI, and Bootstrap, ensuring a seamless user experience.",
-      " Utilized Tailwind CSS and SCSS for efficient and scalable styling solutions.",
+      " Developed and maintained user interfaces using HTML5, CSS3, and JavaScript.",
+      " Implemented state management with ReactJS , enhancing application performance.",
+      " Designed user interfaces using Material UI, and Bootstrap, ensuring a seamless user experience.",
+      " Utilized Tailwind CSS and CSS for efficient and scalable styling solutions.",
     ],
   },
   {
@@ -201,12 +188,11 @@ const experiences = [
     company_name: "Full Stack learning -  Noida, Uttar Pradesh",
     icon: fsl,
     iconBg: "#E6DEDD",
-    date: "Aug 2021",
+    date: "Aug 2023",
     points: [
-      "Frontend development training: HTML, CSS, JavaScript, Reactjs",
-      "Created responsive projects, emphasizing user-friendly interfaces and exposure to backend concepts.",
+      "Frontend development training: HTML, CSS, JavaScript",
+      "Created responsive projects, emphasizing user-friendly interfaces and exposure to SQL backend concepts.",
       "Writing clean and efficient code that's easy to understand and maintain.",
-      "Integrating third-party APIs and services to add more functionality to the applications.",
       "Troubleshooting and debugging issues to improve the overall performance of the applications.",
     ],
   },
@@ -280,32 +266,10 @@ const projects = [
     ],
     image: cravebite,
     hosted_link: "https://cravebite-hazel.vercel.app/",
-    source_code_link: "https://github.com/1nishitagupta/cravebite",
+    source_code_link: "https://github.com/hk202202/cravebite",
   },
   {
-    name: "YouTube Clone",
-    description:
-      "Developed a YouTube clone using React, incorporating React Player and Material-UI components. This project demonstrated the ability to integrate external libraries and build a user interface that closely emulates the popular video-sharing platform.",
-    tags: [
-      {
-        name: " Material-UI",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "React Player",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: youtube,
-    hosted_link: "https://youtube-clone-nishita-eight.vercel.app/",
-    source_code_link: "https://github.com/1nishitagupta/Youtube-clone",
-  },
-  {
-    name: "Movix App",
+    name: "Movie App",
     description:
       "Implemented a feature-rich movie application using React, Redux, and the TMDb API. The project included functionalities such as search filters, category sorting, and smooth animations. The use of skeleton loading added to the overall user experience.",
     tags: [
@@ -323,8 +287,8 @@ const projects = [
       },
     ],
     image: movix,
-    hosted_link: "https://movix-nishita.vercel.app/",
-    source_code_link: "https://github.com/1nishitagupta/movix",
+    hosted_link: "",
+    source_code_link: "https://github.com/hk202202/Netfilx.app",
   },
   {
     name: "SGFI - Website with Animation",
@@ -350,7 +314,7 @@ const projects = [
     ],
     image: sgfi,
     hosted_link: "https://sgfi-react.vercel.app/",
-    source_code_link: "https://github.com/1nishitagupta/sgfi-html",
+    source_code_link: "https://github.com/hk202202/sgfi-html",
   },
   {
     name: "React E-commerce",
@@ -368,7 +332,7 @@ const projects = [
     ],
     image: ecommerce,
     hosted_link: "https://react-e-commerce-sage.vercel.app/",
-    source_code_link: "https://github.com/1nishitagupta/React-E-commerce",
+    source_code_link: "https://github.com/hk202202/React-E-commerce",
   },
   {
     name: "Chat Bot",
@@ -390,34 +354,34 @@ const projects = [
     ],
     image: chatbot,
     hosted_link: "https://chat-bot-hazel.vercel.app/",
-    source_code_link: "https://github.com/1nishitagupta/ChatBot",
+    source_code_link: "https://github.com/hk202202/ChatBot",
   },
-  {
-    name: "Random User App",
-    description:
-      "Crafted a dynamic Random User application using React, seamlessly fetching data from external APIs. The project displayed adeptness in working with asynchronous operations, RESTful APIs, and rendering user information cards. The intuitive user interface offers a smooth and engaging experience.",
-    tags: [
-      {
-        name: "HTML",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "REST API",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: randomuser,
-    hosted_link: "https://random-user-gamma.vercel.app/",
-    source_code_link: "https://github.com/1nishitagupta/random-user",
-  },
+  // {
+  //   name: "Random User App",
+  //   description:
+  //     "Crafted a dynamic Random User application using React, seamlessly fetching data from external APIs. The project displayed adeptness in working with asynchronous operations, RESTful APIs, and rendering user information cards. The intuitive user interface offers a smooth and engaging experience.",
+  //   tags: [
+  //     {
+  //       name: "HTML",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "REST API",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: randomuser,
+  //   hosted_link: "https://random-user-gamma.vercel.app/",
+  //   source_code_link: "https://github.com/hk202202",
+  // },
   {
     name: "To-Do App ",
     description:
@@ -438,7 +402,7 @@ const projects = [
     ],
     image: todo,
     hosted_link: "https://redux-todo-mocha.vercel.app/",
-    source_code_link: "https://github.com/1nishitagupta/Redux-Todo",
+    source_code_link: "https://github.com/hk202202/Redux-Todo",
   },
 ];
 
