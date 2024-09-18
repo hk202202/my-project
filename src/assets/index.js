@@ -62,7 +62,7 @@ import ui from "./service_icon/ui.png";
 import durapid from "./durapid.png";
 import fsl from "./fsl.png";
 
-import hklogo from "./hkLogo.png";
+import hklogo from "./hklogo.png";
 export {
   logo,
   backend,
