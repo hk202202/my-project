@@ -4,7 +4,7 @@ Welcome to my portfolio! This project showcases my skills, projects, and creativ
 
 ## Live Link
 
-Explore my portfolio live at [MY-PORTFOLIO-Live-Link](https://my-portfolio-1nishitagupta.vercel.app/)
+Explore my portfolio live at [MY-PORTFOLIO-Live-Link](https://portfolio2-murex-chi.vercel.app/)
 
 ## Technologies Used
 
